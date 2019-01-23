@@ -1,0 +1,76 @@
+/*********************/
+/* START GAME SCREEN */
+/*********************/
+
+.startGameScreen {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.startButton {
+  background-color: white;
+  border-style: none;
+  padding: 30px;
+  box-shadow: 0px 0px 50px 0px #963227;
+  transition-duration: 300ms;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.startButton:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 50px 0px #ffffff;
+  transition-duration: 300ms;
+}
+
+.startButton:active {
+  cursor: pointer;
+  box-shadow: 0px 0px 50px 0px #e9e8e8;
+  background-color: #e9e8e8;
+  transition-duration: 300ms;
+}
+
+.memoryGameTxt {
+  font-family: 'Lobster', cursive;
+  color: #f1c40f;
+  font-size: 100px;
+}
+
+.startGameTxt {
+  margin-top: 20px;
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+/******************/
+/* IN GAME SCREEN */
+/******************/
+
+.timer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #f1c40f;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+}
+
+.nbShotsPlayed {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.displayedCard {
+}
+
+.endGame {
+  background-color: white;
+  padding: 20px;
+}
+
+.containerCards {
+  display: flex;
+}

@@ -1,0 +1,23 @@
+.card {
+  box-shadow: 0px 0px 10px 0px #963227;
+  margin: 20px;
+  transition-duration: 300ms;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.25, 1.25);
+  transition-duration: 300ms;
+}
+
+.card.hiddenCard {
+  filter: brightness(0%);
+  transition-duration: 300ms;
+}
+
+.card.displayedCard {
+  filter: brightness(50%);
+  transition-duration: 300ms;
+}
+
+/*filter: contrast(200%); */
